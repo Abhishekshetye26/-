@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+
+    height:100%;
+    width:100%;
+  
+}
+
+.main{
+
+    height:100%;
+    width:100%;
+    position:relative;
+
+
+}
+
+.nav{
+
+    height:100px;
+    width:100%;
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6vw;
+   
+}
+.submain{
+
+    display: flex;
+    align-items: center;
+    gap:4vw;
+}
+.nav h2{
+
+    font-size: 3vw;
+
+}
+.nav h4{
+
+    font-size: 1.5vw;
+}
+
+@media  (max-width:600px) {
+
+    .nav{
+        background-color: grey;
+        padding: 0 5vw;
+
+    }
+
+    .nav h2{
+
+        font-size: 5vw;
+    }
+
+    .nav h4{
+
+        font-size: 3vw;
+    }
+    
+}
+
+
+.content{
+
+    /* background-color: burlywood; */
+    height :calc(100% - 100px);
+    width: 100%;
+    display: flex;
+}
+
+.left{
+
+    height:100%;
+    width:70%;
+ 
+    padding: 2vw 2vw 0 5vw;
+}
+
+.left h1{
+
+    font-size:4vw;
+    line-height: 4.4vw;
+    
+}
+
+.left h1 span{
+
+    color: rgb(169, 116, 63);
+    text-decoration: cornflowerblue;
+  
+}
+
+.left p{
+
+    font-size: 1.17vw;
+    font-weight: 700;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width:97%;
+    color: rgb(60, 59, 59);
+}
+
+button{
+
+    font-size:1.2vw;
+    padding:1.2vw 2.1vw;
+    background-color:rgb(234, 182, 130);
+    color: rgb(21, 21, 20);
+    border:none;
+    border-radius: 5px;
+    font-weight: 700;
+    border: 3px solid rgb(98, 65, 32);
+}
+
+.right{
+
+    height:100%;
+    width:30%;
+    /* background-color: crimson; */
+}
+
+.right .top{
+
+    height:100px;
+  
+  
+}
+
+.right img{
+
+    height: 100%;
+    width:100%;
+    object-fit: contain;
+   object-position: top;
+}
+
+.boxes{
+
+    height:100px;
+    width:100%;
+
+    display: flex;
+    align-items:center ;
+    gap: 4vw;
+
+    
+}
+
+.elem{
+
+    
+ 
+    height:6vw;
+    display: flex;
+    align-items: center;
+    gap:1vw;
+    
+}
+
+.elem h4{
+    font-size:1.2vw;
+    
+    
+}
+
+
+.box{
+
+    height:5vw;
+    width:16vw;
+    /* background-color:black ; */
+    border: 3px solid rgb(98, 65, 32);
+    
+}
+
+
+.subcontent{
+    display: flex;
+    gap:12vw;
+    margin-top: 2.5vw;
+   
+   
+    /* background-color: blue; */
+}
